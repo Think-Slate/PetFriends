@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AB47DB21A86ADB1004E7660 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB47DB11A86ADB1004E7660 /* main.m */; };
+		8AB47DB51A86ADB1004E7660 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB47DB41A86ADB1004E7660 /* AppDelegate.m */; };
+		8AB47DB81A86ADB1004E7660 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB47DB71A86ADB1004E7660 /* ViewController.m */; };
+		8AB47DBB1A86ADB1004E7660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB47DB91A86ADB1004E7660 /* Main.storyboard */; };
+		8AB47DBD1A86ADB1004E7660 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB47DBC1A86ADB1004E7660 /* Images.xcassets */; };
+		8AB47DC01A86ADB1004E7660 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB47DBE1A86ADB1004E7660 /* LaunchScreen.xib */; };
+		8AB47DCC1A86ADB1004E7660 /* PetFriendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB47DCB1A86ADB1004E7660 /* PetFriendsTests.m */; };
+		8AB47DD91A86AEBD004E7660 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB47DD71A86AEBD004E7660 /* BLE.m */; };
+		8AB47DDD1A86AF2F004E7660 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB47DDC1A86AF2F004E7660 /* AudioToolbox.framework */; };
+		8AB47DDF1A86AF3F004E7660 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB47DDE1A86AF3F004E7660 /* UIKit.framework */; };
+		8AB47DE11A86AFA5004E7660 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB47DE01A86AFA5004E7660 /* CoreBluetooth.framework */; };
+		8AB47DE31A86AFB8004E7660 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB47DE21A86AFB8004E7660 /* Foundation.framework */; };
+		8AB47DE51A86AFC0004E7660 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB47DE41A86AFC0004E7660 /* CoreGraphics.framework */; };
+		8AB47DE91A86CA8A004E7660 /* SecondViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 8AB47DE81A86CA8A004E7660 /* SecondViewController.h */; };
+		8AB47DEB1A86CAA2004E7660 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB47DEA1A86CAA2004E7660 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AB47DC61A86ADB1004E7660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AB47DA41A86ADB1004E7660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AB47DAB1A86ADB1004E7660;
+			remoteInfo = PetFriends;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AB47DAC1A86ADB1004E7660 /* PetFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB47DB01A86ADB1004E7660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB47DB11A86ADB1004E7660 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AB47DB31A86ADB1004E7660 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AB47DB41A86ADB1004E7660 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AB47DB61A86ADB1004E7660 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8AB47DB71A86ADB1004E7660 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AB47DBA1A86ADB1004E7660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AB47DBC1A86ADB1004E7660 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8AB47DBF1A86ADB1004E7660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8AB47DC51A86ADB1004E7660 /* PetFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB47DCA1A86ADB1004E7660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB47DCB1A86ADB1004E7660 /* PetFriendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetFriendsTests.m; sourceTree = "<group>"; };
+		8AB47DD61A86AEBD004E7660 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		8AB47DD71A86AEBD004E7660 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		8AB47DD81A86AEBD004E7660 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		8AB47DDC1A86AF2F004E7660 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8AB47DDE1A86AF3F004E7660 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8AB47DE01A86AFA5004E7660 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8AB47DE21A86AFB8004E7660 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8AB47DE41A86AFC0004E7660 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8AB47DE81A86CA8A004E7660 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8AB47DEA1A86CAA2004E7660 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AB47DA91A86ADB1004E7660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB47DE51A86AFC0004E7660 /* CoreGraphics.framework in Frameworks */,
+				8AB47DE31A86AFB8004E7660 /* Foundation.framework in Frameworks */,
+				8AB47DE11A86AFA5004E7660 /* CoreBluetooth.framework in Frameworks */,
+				8AB47DDF1A86AF3F004E7660 /* UIKit.framework in Frameworks */,
+				8AB47DDD1A86AF2F004E7660 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB47DC21A86ADB1004E7660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AB47DA31A86ADB1004E7660 = {
+			isa = PBXGroup;
+			children = (
+				8AB47DAE1A86ADB1004E7660 /* PetFriends */,
+				8AB47DE61A86AFDB004E7660 /* Frameworks */,
+				8AB47DC81A86ADB1004E7660 /* PetFriendsTests */,
+				8AB47DAD1A86ADB1004E7660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AB47DAD1A86ADB1004E7660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AB47DAC1A86ADB1004E7660 /* PetFriends.app */,
+				8AB47DC51A86ADB1004E7660 /* PetFriendsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AB47DAE1A86ADB1004E7660 /* PetFriends */ = {
+			isa = PBXGroup;
+			children = (
+				8AB47DB31A86ADB1004E7660 /* AppDelegate.h */,
+				8AB47DB41A86ADB1004E7660 /* AppDelegate.m */,
+				8AB47DB61A86ADB1004E7660 /* ViewController.h */,
+				8AB47DB71A86ADB1004E7660 /* ViewController.m */,
+				8AB47DE81A86CA8A004E7660 /* SecondViewController.h */,
+				8AB47DEA1A86CAA2004E7660 /* SecondViewController.m */,
+				8AB47DB91A86ADB1004E7660 /* Main.storyboard */,
+				8AB47DBC1A86ADB1004E7660 /* Images.xcassets */,
+				8AB47DBE1A86ADB1004E7660 /* LaunchScreen.xib */,
+				8AB47DAF1A86ADB1004E7660 /* Supporting Files */,
+			);
+			path = PetFriends;
+			sourceTree = "<group>";
+		};
+		8AB47DAF1A86ADB1004E7660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AB47DB01A86ADB1004E7660 /* Info.plist */,
+				8AB47DB11A86ADB1004E7660 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AB47DC81A86ADB1004E7660 /* PetFriendsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AB47DCB1A86ADB1004E7660 /* PetFriendsTests.m */,
+				8AB47DC91A86ADB1004E7660 /* Supporting Files */,
+			);
+			path = PetFriendsTests;
+			sourceTree = "<group>";
+		};
+		8AB47DC91A86ADB1004E7660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AB47DCA1A86ADB1004E7660 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AB47DD51A86AEBD004E7660 /* BLE_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8AB47DD61A86AEBD004E7660 /* BLE.h */,
+				8AB47DD71A86AEBD004E7660 /* BLE.m */,
+				8AB47DD81A86AEBD004E7660 /* BLEDefines.h */,
+			);
+			name = BLE_Framework;
+			path = PetFriends/BLE_Framework;
+			sourceTree = "<group>";
+		};
+		8AB47DE61A86AFDB004E7660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AB47DE41A86AFC0004E7660 /* CoreGraphics.framework */,
+				8AB47DE21A86AFB8004E7660 /* Foundation.framework */,
+				8AB47DE01A86AFA5004E7660 /* CoreBluetooth.framework */,
+				8AB47DD51A86AEBD004E7660 /* BLE_Framework */,
+				8AB47DDE1A86AF3F004E7660 /* UIKit.framework */,
+				8AB47DDC1A86AF2F004E7660 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AB47DAB1A86ADB1004E7660 /* PetFriends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB47DCF1A86ADB1004E7660 /* Build configuration list for PBXNativeTarget "PetFriends" */;
+			buildPhases = (
+				8AB47DA81A86ADB1004E7660 /* Sources */,
+				8AB47DA91A86ADB1004E7660 /* Frameworks */,
+				8AB47DAA1A86ADB1004E7660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetFriends;
+			productName = PetFriends;
+			productReference = 8AB47DAC1A86ADB1004E7660 /* PetFriends.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AB47DC41A86ADB1004E7660 /* PetFriendsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AB47DD21A86ADB1004E7660 /* Build configuration list for PBXNativeTarget "PetFriendsTests" */;
+			buildPhases = (
+				8AB47DC11A86ADB1004E7660 /* Sources */,
+				8AB47DC21A86ADB1004E7660 /* Frameworks */,
+				8AB47DC31A86ADB1004E7660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AB47DC71A86ADB1004E7660 /* PBXTargetDependency */,
+			);
+			name = PetFriendsTests;
+			productName = PetFriendsTests;
+			productReference = 8AB47DC51A86ADB1004E7660 /* PetFriendsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AB47DA41A86ADB1004E7660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Think~Slate";
+				TargetAttributes = {
+					8AB47DAB1A86ADB1004E7660 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8AB47DC41A86ADB1004E7660 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8AB47DAB1A86ADB1004E7660;
+					};
+				};
+			};
+			buildConfigurationList = 8AB47DA71A86ADB1004E7660 /* Build configuration list for PBXProject "PetFriends" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AB47DA31A86ADB1004E7660;
+			productRefGroup = 8AB47DAD1A86ADB1004E7660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AB47DAB1A86ADB1004E7660 /* PetFriends */,
+				8AB47DC41A86ADB1004E7660 /* PetFriendsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AB47DAA1A86ADB1004E7660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB47DE91A86CA8A004E7660 /* SecondViewController.h in Resources */,
+				8AB47DBB1A86ADB1004E7660 /* Main.storyboard in Resources */,
+				8AB47DC01A86ADB1004E7660 /* LaunchScreen.xib in Resources */,
+				8AB47DBD1A86ADB1004E7660 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB47DC31A86ADB1004E7660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AB47DA81A86ADB1004E7660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB47DEB1A86CAA2004E7660 /* SecondViewController.m in Sources */,
+				8AB47DB81A86ADB1004E7660 /* ViewController.m in Sources */,
+				8AB47DB51A86ADB1004E7660 /* AppDelegate.m in Sources */,
+				8AB47DB21A86ADB1004E7660 /* main.m in Sources */,
+				8AB47DD91A86AEBD004E7660 /* BLE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB47DC11A86ADB1004E7660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB47DCC1A86ADB1004E7660 /* PetFriendsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AB47DC71A86ADB1004E7660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AB47DAB1A86ADB1004E7660 /* PetFriends */;
+			targetProxy = 8AB47DC61A86ADB1004E7660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AB47DB91A86ADB1004E7660 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AB47DBA1A86ADB1004E7660 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AB47DBE1A86ADB1004E7660 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AB47DBF1A86ADB1004E7660 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AB47DCD1A86ADB1004E7660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8AB47DCE1A86ADB1004E7660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AB47DD01A86ADB1004E7660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PetFriends/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8AB47DD11A86ADB1004E7660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PetFriends/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8AB47DD31A86ADB1004E7660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PetFriendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetFriends.app/PetFriends";
+			};
+			name = Debug;
+		};
+		8AB47DD41A86ADB1004E7660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PetFriendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetFriends.app/PetFriends";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AB47DA71A86ADB1004E7660 /* Build configuration list for PBXProject "PetFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB47DCD1A86ADB1004E7660 /* Debug */,
+				8AB47DCE1A86ADB1004E7660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AB47DCF1A86ADB1004E7660 /* Build configuration list for PBXNativeTarget "PetFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB47DD01A86ADB1004E7660 /* Debug */,
+				8AB47DD11A86ADB1004E7660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AB47DD21A86ADB1004E7660 /* Build configuration list for PBXNativeTarget "PetFriendsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB47DD31A86ADB1004E7660 /* Debug */,
+				8AB47DD41A86ADB1004E7660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AB47DA41A86ADB1004E7660 /* Project object */;
+}

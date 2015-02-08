@@ -12,7 +12,9 @@
 #import "BLE.h"
 #import "AppDelegate.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<BLEDelegate>{
+    
+}
 
 @property (strong, nonatomic) BLE *ble;
 @property (strong, nonatomic) IBOutlet UIButton *addPet;

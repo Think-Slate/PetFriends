@@ -21,6 +21,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    ble = [[BLE alloc]init];
+    [ble controlSetup:1];
+    ble.delegate = self;
+    
+    [self scanForPeripherals];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,7 +47,11 @@
 -(void)bleDidReceiveData:(unsigned char *)data length:(int)length{
     
     if(data[0] == 0x00){
-        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Computer Under Attack!" message:@"Beware! Your computer might be getting stolen!" delegate:self cancelButtonTitle:@"Close" otherButtonTitles:nil];
+        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"I'm Thirsty!" message:@"Please fill my water bowl!" delegate:self cancelButtonTitle:@"Close" otherButtonTitles:nil];
+        //alert.alertViewStyle = UIAlertViewStylePlainTextInput;
+        [alert show];
+    } else if(data[0] == 0x01){
+        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"I'm Hungry!" message:@"Feed me please!" delegate:self cancelButtonTitle:@"Close" otherButtonTitles:nil];
         //alert.alertViewStyle = UIAlertViewStylePlainTextInput;
         [alert show];
     }
@@ -53,6 +63,8 @@
 
 #pragma mark - BLE Actions
 -(void)scanForPeripherals{
+    while(!ble){}
+    
     [self disconnectFromPeripheral];
     
     if(ble.peripherals){
@@ -80,11 +92,11 @@
     if(ble.peripherals.count > 0){
         
         [ble connectPeripheral:[ble.peripherals objectAtIndex:0]];
-        [NSTimer scheduledTimerWithTimeInterval:(float)300.0 target:self selector:@selector(disconnectTimer:) userInfo:nil repeats:NO];
+//        [NSTimer scheduledTimerWithTimeInterval:(float)300.0 target:self selector:@selector(disconnectTimer:) userInfo:nil repeats:NO];
         
     } else {
         
-        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Device not in range" message:@"Could not connect to device. Must be within 100ft of your location" delegate:self cancelButtonTitle:@"Close" otherButtonTitles:nil];
+//        UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Device not in range" message:@"Could not connect to device. Must be within 100ft of your location" delegate:self cancelButtonTitle:@"Close" otherButtonTitles:nil];
         //alert.alertViewStyle = UIAlertViewStylePlainTextInput;
         [alert show];
     }

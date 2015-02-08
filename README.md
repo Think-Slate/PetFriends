@@ -1,2 +1,2 @@
 # PetFriends
-Pet feeding system 
+Pet diet tracker and feeding reminder
